@@ -130,7 +130,7 @@ let time = 5;
 
 const countdown = setInterval(() => {
     time--;
-    btn.innerText = "Please wait " + time + "s";
+    btn.innerText = "Please wait..." + time + "s";
 
     if (time <= 0) {
         clearInterval(countdown);
@@ -148,4 +148,5 @@ btn.addEventListener("click", () => {
 
 </body>
 </html>
+
 
